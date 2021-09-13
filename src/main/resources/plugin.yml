@@ -1,0 +1,14 @@
+name: MixyBanGUI
+version: '${project.version}'
+main: mixy.bangui.mixybangui.MixyBanGUI
+api-version: 1.17
+authors: [ Mixy ]
+description: Ban gui
+commands:
+  banmenu:
+    description: Ban from gui
+    usage: /<command>
+    permission: mixy.banmenu
+    permission-message: You do not have the permissions to use this command
+    aliases:
+      - bangui
